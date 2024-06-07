@@ -1,0 +1,45 @@
+[
+  {
+    "Id":1,
+    "Name":"Bezose House",
+    "Type":"House",
+    "Price":9900000
+  },
+  {
+      "Id":2,
+      "Name":"Adani House",
+      "Type":"Flat",
+      "Price":9900000
+  },
+      
+  {
+        "Id":3,
+        "Name":"Ambani House",
+        "Type":"Duplex",
+        "Price":8800000
+      
+  },
+  {
+          "Id":4,
+          "Name":"Mittal House",
+          "Type":"Row House",
+          "Price":1100000
+  },
+
+  {
+    "Id":5,
+    "Name":"Birla House",
+    "Type":"House",
+    "Price":4400000
+  },
+  {
+      "Id":6,
+      "Name":"Tata House",
+      "Type":"Villa",
+      "Price":5500000
+    
+  }
+   
+      
+        
+]
