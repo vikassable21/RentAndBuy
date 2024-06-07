@@ -12,10 +12,14 @@ import { HousingService } from './services/housing.service';
 
 import { Routes,RouterModule } from '@angular/router';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { PropertyDetailsComponent } from './property/property-details/property-details.component';
 
 const appRoutes :Routes=[
   {path:'',component:PropertyListComponent},
-   {path:'add-property',component:AddPropertyComponent}
+  {path:'rent-property',component:PropertyListComponent},
+   {path:'add-property',component:AddPropertyComponent},
+   {path:'property-detail/:id',component:PropertyDetailsComponent},
+   {path:'**',component:PropertyListComponent}
 ]
 
 // import { PropertyListComponent } from './property/property-list/property-list.component';
@@ -29,7 +33,8 @@ const appRoutes :Routes=[
     PropertyCardComponent,
     PropertyListComponent,
 NavBarComponent,
-AddPropertyComponent
+AddPropertyComponent,
+PropertyDetailsComponent
 
 
 

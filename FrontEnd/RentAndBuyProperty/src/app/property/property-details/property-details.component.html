@@ -1,0 +1,14 @@
+<p>property-details works!
+    selected propertyid={{propertyId}}
+    <button class="btn btn-primary" (click)="onBack()">Back</button>
+</p>
+<div class="row">
+<div class="col-3"> <button (click)="onSelectPrevious()" class="btn btn-success">Select Previous Property</button> </div>
+<div class="col-3"><button   (click)="onSelectNext()" class="btn btn-success">Select Next Property</button></div>
+</div>
+<br><br>
+<button routerLink="/property-detail/1" class="btn btn-success">1</button>
+<button routerLink="/property-detail/2" class="btn btn-success">2</button>
+<button routerLink="/property-detail/3" class="btn btn-success">3</button>
+<button [routerLink]="['/property-detail','4']" class="btn btn-success">4</button>
+

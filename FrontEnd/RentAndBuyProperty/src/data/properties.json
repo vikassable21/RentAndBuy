@@ -1,44 +1,111 @@
 [
   {
     "Id":1,
+    "SellRent":1,
     "Name":"Bezose House",
     "Type":"House",
-    "Price":9900000
+    "Price":9900000,
+     "Image":"prop1"
   },
   {
       "Id":2,
+      "SellRent":2,
       "Name":"Adani House",
       "Type":"Flat",
-      "Price":9900000
+      "Price":9900000,
+      "Image":"prop2"
   },
       
   {
         "Id":3,
+        "SellRent":1,
         "Name":"Ambani House",
         "Type":"Duplex",
-        "Price":8800000
+        "Price":8800000,
+         "Image":"prop3"
       
   },
   {
           "Id":4,
+          "SellRent":2,
           "Name":"Mittal House",
           "Type":"Row House",
-          "Price":1100000
+          "Price":1100000,
+           "Image":"prop4"
   },
 
   {
     "Id":5,
+    "SellRent":1,
     "Name":"Birla House",
     "Type":"House",
-    "Price":4400000
+    "Price":4400000,
+     "Image":"prop5"
   },
   {
       "Id":6,
+      "SellRent":2,
       "Name":"Tata House",
       "Type":"Villa",
-      "Price":5500000
+      "Price":5500000,
+       "Image":"prop6"
     
-  }
+  },
+  {
+    "Id":7,
+    "SellRent":1,
+    "Name":"Zunzunwala House",
+    "Type":"House",
+    "Price":9800000,
+     "Image":""
+  
+},
+{
+  "Id":8,
+  "SellRent":2,
+  "Name":"Mannat House",
+  "Type":"Duplex",
+  "Price":7600000,
+   "Image":""
+
+},
+{
+  "Id":9,
+  "SellRent":1,
+  "Name":"Galexy House",
+  "Type":"Villa",
+  "Price":5900000,
+   "Image":""
+
+},
+{
+  "Id":10,
+  "SellRent":2,
+  "Name":"Tata House",
+  "Type":"Villa",
+  "Price":5500000,
+   "Image":""
+
+},
+{
+"Id":11,
+"SellRent":1,
+"Name":"Zunzunwala House",
+"Type":"House",
+"Price":9800000,
+ "Image":""
+
+},
+{
+"Id":12,
+"SellRent":2,
+"Name":"Mannat House",
+"Type":"Duplex",
+"Price":7600000,
+"Image":""
+
+}
+
    
       
         

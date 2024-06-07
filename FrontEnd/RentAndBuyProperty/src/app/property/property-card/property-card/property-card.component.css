@@ -15,7 +15,7 @@ width: 200px;
     transform: scale(1.2,1.2);
     transition-duration: (500ms);
     transition-timing-function:ease-out;
-    height: 250px;
+    height: 150px;
     opacity: .7;
 
 }
@@ -24,13 +24,13 @@ width: 200px;
     transform: scale(1.,1.);
     transition-duration: (700ms);
     transition-timing-function:ease-out;
-     height: 250px;
+     height: 150px;
   
 }
 .member-icons{
     position: absolute;
-    bottom: -30%;
-    left: 140px;
+    bottom: -40%;
+    left: 50px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
